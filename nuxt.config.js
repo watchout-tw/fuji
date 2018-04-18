@@ -52,6 +52,9 @@ module.exports = {
         ]
       }
     }
-  }
+  },
+  modules: [
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-WCCRZLN' }]
+  ]
   // NOTE: Add Markdown loader <https://github.com/nuxt/nuxt.js/issues/1072>
 }
