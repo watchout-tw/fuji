@@ -1,14 +1,32 @@
 # fuji
 
-> Nuxt.js project
+> Build Watchout services with nuxt.js
+
+## Customize this template for each
+
+### `nuxt.config.js`
+- `head`
+  - `title`
+  - `description`
+  - icons in `link`
+- `loading`
+  - `color` - 應該要符合服務或頻道的標準色
+- `modules`
+  - GTM ID
+
+### `package.json`
+- `name`
+- `description`
+- `config`
+  - `nuxt.port` - 建議從9000開始
 
 ## Build Setup
 
 ``` bash
 # install dependencies
-$ npm install # Or yarn install
+$ npm install
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:[port]
 $ npm run dev
 
 # build for production and launch server
@@ -18,5 +36,3 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
