@@ -6,30 +6,22 @@ function getProjectLogo(projectID) {
   return 'https://raw.githubusercontent.com/watchout-tw/watchout-common-assets/master/images/logo/' + projectID + '/large.png'
 }
 module.exports = {
-  /*
-  ** Headers of the page
-  */
   head: {
-    title: '→沃草←中央公園',
+    title: '→沃草←',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '沃草《中央公園》是⋯' }
+      { name: 'description', content: '沃草是⋯', hid: 'description' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: getFavicon('park') },
-      { rel: 'apple-touch-icon', sizes: '256x256', href: getProjectLogo('park') }
+      { rel: 'icon', type: 'image/x-icon', href: getFavicon('watchout') },
+      { rel: 'apple-touch-icon', sizes: '256x256', href: getProjectLogo('watchout') }
     ]
   },
-  /*
-  ** Customize the progress bar color
-  */
   loading: {
-    color: '#FFB55D'
+    color: '#FFB55D',
+    height: '4px'
   },
-  /*
-  ** Build configuration
-  */
   build: {
     vender: ['axios', 'vuex'],
     /*
@@ -54,7 +46,7 @@ module.exports = {
     }
   },
   modules: [
-    ['@nuxtjs/google-tag-manager', { id: 'GTM-WCCRZLN' }]
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-NNQFKZ5' }]
   ]
   // NOTE: Add Markdown loader <https://github.com/nuxt/nuxt.js/issues/1072>
 }
