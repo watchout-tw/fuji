@@ -19,7 +19,7 @@ module.exports = {
     ]
   },
   loading: {
-    color: '#FFB55D',
+    color: '#E6A353',
     height: '4px'
   },
   build: {
