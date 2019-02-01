@@ -7,7 +7,7 @@ function getProjectLogo(projectID) {
 }
 module.exports = {
   head: {
-    title: '→沃草←',
+    title: '沃草',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
